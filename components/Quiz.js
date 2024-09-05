@@ -14,7 +14,7 @@ const Quiz = () => {
   const [proxy, setProxy] = useState(false);
   let song = null;
   const checkAns = () => {
-    if (quizConfig[currentQuestion].answer.includes(currentAnswer)) {
+    if (currentAnswer.includes(quizConfig[currentQuestion].answer)) {
       setIsAnswerCorrect(true);
     }
     setHasSubmitted(true);

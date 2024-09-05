@@ -16,12 +16,12 @@ export const QuizConfig = [
   },
   {
     question:
-      "The best time we spend is chatting and gossiping on our walks and even walking kilometers doesn't seem to burn a sweat. But do you remeber the place where the first time we went on a walk alone on Feb 1",
+      "The best time we spend is chatting and gossiping on our walks and even walking kilometers doesn't seem to burn a sweat. But do you remember the place where the first time we went on a walk alone on Feb 1",
     hint: {
       text: "Someone like you with a great fashion sense should know the place",
       showHint: false,
     },
-    answer: "nift lane",
+    answer: "nift",
     personal_msg: {
       should_play_video: true,
       video: "/media/yjhd.mp4",
