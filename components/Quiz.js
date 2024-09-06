@@ -84,12 +84,12 @@ const Quiz = () => {
               value={currentAnswer}
               onChange={(e) => setCurrentAnswer(e.target.value)}
             ></input>
-            <button
+            {!isAnswerCorrect && <button
               className="text-base bg-pink-500 text-white px-10 py-1 rounded-md w-[60%] mb-3"
               onClick={() => checkAns()}
             >
               Submit
-            </button>
+            </button>}
             {isAnswerCorrect ? (
               <p className="my-2 text-base text-pink-500 font-semibold font-serif">
                 Yay that's a correct guess
