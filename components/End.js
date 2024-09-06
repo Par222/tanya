@@ -39,21 +39,22 @@ const End = () => {
             </video>
           </p>
           {homeEnabled && (
-            <>
+            <div className="flex flex-col justify-center items-center space-y-5">
               <p className="text-lg my-5 font-serif  text-pink-500 font-semibold">
                 Will you let me take care of you and be by your side for the
                 rest of my life ?
               </p>
-              <Button
-                btnText={"Definitely Yes"}
-                onClick={() => router.push("/")}
-              ></Button>
-              <Button
-                btnText={"Maybe Yes"}
-                onClick={() => router.push("/")}
-              ></Button>
-              
-            </>
+              <div className="flex items-center justify-center space-x-5">
+                <Button
+                  btnText={"Definitely Yes"}
+                  onClick={() => router.push("/")}
+                ></Button>
+                <Button
+                  btnText={"Maybe Yes"}
+                  onClick={() => router.push("/")}
+                ></Button>
+              </div>
+            </div>
           )}
         </div>
       )}
