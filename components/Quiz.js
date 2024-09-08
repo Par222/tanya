@@ -14,7 +14,7 @@ const Quiz = () => {
   const [proxy, setProxy] = useState(false);
   let song = null;
   const checkAns = () => {
-    if (currentAnswer.includes(quizConfig[currentQuestion].answer)) {
+    if (currentAnswer.toLocaleLowerCase().trim().includes(quizConfig[currentQuestion].answer)) {
       setIsAnswerCorrect(true);
     }
     setHasSubmitted(true);

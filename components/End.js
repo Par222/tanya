@@ -41,17 +41,11 @@ const End = () => {
           {homeEnabled && (
             <div className="flex flex-col justify-center items-center space-y-5">
               <p className="text-base my-5 font-serif  text-pink-500 font-semibold text-center px-5">
-                Will you let me take care of you and be by your side for the
-                rest of my life ?
+               I want you to close your eyes now 
               </p>
               <div className="flex items-center justify-center space-x-5">
                 <Button
-                  btnText={"Definitely Yes"}
-                  width="100px"
-                  onClick={() => router.push("/")}
-                ></Button>
-                <Button
-                  btnText={"Maybe Yes"}
+                  btnText={'Go to Home'}
                   width="100px"
                   onClick={() => router.push("/")}
                 ></Button>

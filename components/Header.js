@@ -6,7 +6,7 @@ const Header = ({ msgList = [], imgLink }) => {
      
     },[])
   return (
-    <div className="w-full max-h-[30%] flex flex-col py-10 space-y-5 justify-center items-center">
+    <div className="w-full max-h-[30%] flex flex-col py-5 space-y-5 justify-center items-center">
       <div className="w-[400px] h-full flex items-center justify-center">
         <img
           className="rounded-full"

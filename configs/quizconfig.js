@@ -32,12 +32,12 @@ export const QuizConfig = [
   },
   {
     question:
-      "You maybe smart and all but lets see if you are able to guess this. I want you to name the most charasmatic and beautiful girl in the state",
+      "You maybe smart and all but lets see if you are able to guess this. I want you to name the most charasmatic and beautiful girl here",
     hint: {
       text: "Okay just look in the mirror for god's sake",
       showHint: false,
     },
-    answer: "tuntun tanya",
+    answer: "tanya",
     personal_msg: {
       should_play_video: false,
       video: "",
